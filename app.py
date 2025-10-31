@@ -29,7 +29,7 @@ def calculator():
             operation = request.form['operation']
             
             if operation == 'add':
-                result = num1 + num2 + 1
+                result = num1 + num2
             elif operation == 'subtract':
                 result = num1 - num2
             elif operation == 'multiply':
